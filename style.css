@@ -85,6 +85,16 @@ header.shadow .logo{
     background:hsl(199, 98%, 56%) ;
     transition: -5s;
 }
+
+.auth-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.auth-links .btn {
+    margin-left: 10px;
+}
 .home{
     position: relative;
     width: 100%;
@@ -106,7 +116,7 @@ header.shadow .logo{
 }
 
 .home-subtitle{
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 400;  
     margin-top: 0;
 }
@@ -293,6 +303,63 @@ header.shadow .logo{
     font-weight: bold;
 }
 
+/* footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.sec {
+    flex: 1;
+    margin: 10px;
+}
+.sec h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+.sec p {
+    margin-bottom: 20px;
+}
+.sci, .info {
+    list-style: none;
+    padding: 0;
+}
+.sci li, .info li {
+    display: inline;
+    margin-right: 10px;
+}
+.sci a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.sci a:hover {
+    color: var(--second-color);
+}
+.info span {
+    margin-right: 10px;
+}
+.info li {
+    margin-bottom: 10px;
+}
+.quicklins a {
+    color: white;
+    text-decoration: none;
+}
+.quicklins a:hover {
+    text-decoration: underline;
+}
+
 
     
 
@@ -378,4 +445,61 @@ header.shadow .logo{
     letter-spacing: 2px;
     transition: 0,5s;
     margin-left: 10px ;
+}
+
+/* page inscription & connexion*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+}
+.contact {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.titre {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.titre h2 {
+    color: #333;
+}
+.inputboite {
+    margin-bottom: 15px;
+}
+.inputboite input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.inputboite input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.inputboite input[type="submit"]:hover {
+    background-color: blue;
+}
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+.text-gray-500 {
+    color: #6c757d;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
