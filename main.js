@@ -23,3 +23,27 @@ $(document).ready(function () {
             $(this).addClass("active-filter").siblings().removeClass("active-filter")
         });
 });
+
+window.addEventListener('resize', function() {
+    if (window.innerWidth < 600) {
+        document.body.style.fontSize = '14px';
+        document.querySelector('.sidebar').style.display = 'none';
+        document.querySelector('.menu-button').style.display = 'block';
+    } else {
+        document.body.style.fontSize = '16px';
+        document.querySelector('.sidebar').style.display = 'block';
+        document.querySelector('.menu-button').style.display = 'none';
+    }
+});
+/*
+const images = document.querySelectorAll('.imgBx img');
+let currentIndex = 0;
+
+images.forEach((img, index) => {
+    img.addEventListener('click', () => {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    });
+});
+*/
