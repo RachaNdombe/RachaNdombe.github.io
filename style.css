@@ -311,6 +311,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 2rem;
 }
 .footer-container {
     max-width: 1200px;
@@ -358,39 +359,8 @@ footer {
 }
 .quicklins a:hover {
     text-decoration: underline;
+    background: var(--second-color);
 }
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -502,4 +472,136 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 1060px) {
+    .container{
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .home.text{
+        width: 100%;
+    }
+}
+@media(max-width: 768px){
+    .nav{
+        padding:  10px 0;
+    }
+    section{
+        padding: 2rem 0 !important;
+    }
+    .header-section{
+        margin-top: 3rem !important;
+    }
+    .home{
+        min-height: 380px;
+    }
+
+    .home-title{
+        font-size: 2rem;
+    }
+    .header-img{
+        height: 370px;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about .contentBx{
+        min-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding-right: 8px;
+    }
+
+    .about .contentBx, .about .imgBx{
+        min-width: 100%;
+        width: 100%;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .about .imgBx{
+        min-height: 250px;
+    }
+
+    .btn2{
+        margin-bottom:30px ;
+    }
+
+    .post-header{
+        height: 435px;
+    }
+    .post-header{
+        margin-top: 9rem !important;
+    }
+}
+
+@media(max-width: 570px){
+    .post-header{
+        height: 390px;
+    }
+    .header-title{
+        width: 100%;
+    }
+    .header-img{
+        height: 340px;
+    }
+}
+
+@media(max-width: 396px){
+    .home-title{
+        font-size: 2rem;
+    }
+    .home-subtitle{
+        font-size:0.9rem ;
+    }
+    .home{
+        min-height: 300px;
+    }
+    .post-box{
+        padding: 10px;
+    }
+
+    .header-title{
+        font-size: 1.4rem;
+    }
+    .header-img{
+        height: 240px;
+
+    }
+
+    .post-header{
+        height: 335px;
+    }
+    .header-img{
+        height: 340px;
+    }
+}
+
+
+/* footer Media Query */
+
+
+@media (max-width: 991px){
+    footer{
+        padding: 40px;
+        font-size: 20px;
+    }
+    footer .footer-container{
+        flex-direction: column;
+    }
+    fooetr .footer-container .sec{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .footer-container .sec .aboutus{
+        width: 100% !important;
+    }
+
+    footer .footer-container .quicklins{
+        width: 100%;
+    }
+
 }
