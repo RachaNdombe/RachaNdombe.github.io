@@ -24,17 +24,7 @@ $(document).ready(function () {
         });
 });
 
-window.addEventListener('resize', function() {
-    if (window.innerWidth < 600) {
-        document.body.style.fontSize = '14px';
-        document.querySelector('.sidebar').style.display = 'none';
-        document.querySelector('.menu-button').style.display = 'block';
-    } else {
-        document.body.style.fontSize = '16px';
-        document.querySelector('.sidebar').style.display = 'block';
-        document.querySelector('.menu-button').style.display = 'none';
-    }
-});
+
 /*
 const images = document.querySelectorAll('.imgBx img');
 let currentIndex = 0;
