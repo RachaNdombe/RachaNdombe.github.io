@@ -143,6 +143,17 @@ header.shadow .logo{
 .title-text{
     color: #111;
     font-size: 1em;
+    text-align: center;
+}
+
+.title-text {
+    text-align: center; 
+    line-height: 1.6; 
+    margin: 20px;
+}
+
+.title-text br {
+    margin-bottom: 10px; 
 }
 .about .imgBx{
     position: relative;
@@ -173,6 +184,7 @@ header.shadow .logo{
     align-items: center;
     column-gap: 1.5rem;
     margin-top: 2rem !important;
+    padding: 20px;
 }
 .filter-item{
     font-size: 0.9rem;
