@@ -172,6 +172,23 @@ header.shadow .logo{
     color: #fff;
 }
 
+.cmt{
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background:#fff ;
+    border:.8px solid#111 ;
+    text-decoration: none;
+    color: #111;
+    transition: 0.5s;
+}
+.cmt:hover{
+    background-color: var(--second-color);
+    border: none;
+    color: #fff;
+}
+
 .post-filter{
     display: flex;
     justify-content: center;
