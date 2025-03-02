@@ -42,17 +42,21 @@ Avant cela, Narcisse a fait ses études primaires à l’EP 2 Mbanga, ses étude
            <img src="images/a1.jpg" alt=""class="fugit">
         </div>
     </section>
-    <div ><a href="post.html" class="cmt">Commencer</a></div>
 
-    <div class="post-filter container">
-        <span class="filitemter- active-filter" data-filter="all">All</span>
-        <span class="filter-item active-filter" data-filter="tech">Tech</span>
-        <span class="filter-item active-filter" data-filter="food">Food</span>
-        <span class="filter-item active-filter" data-filter="news">News</span>
-    </div >
+    <div class="container">
+        <!-- Bouton pour afficher les catégories -->
+        <button id="category-btn">Afficher les Catégories</button>
 
-    <div class="post container">
-        <!--Le premier post-->
+        <div id="category-filter" class="filter-container hidden">
+            <span class="filter-item" data-filter="all">All</span>
+            <span class="filter-item" data-filter="tech">Tech</span>
+            <span class="filter-item" data-filter="food">Food</span>
+            <span class="filter-item" data-filter="news">News</span>
+        </div>
+
+        <div class="post container">
+
+             <!--Le premier post-->
         <div class="post-box tech">
             <img src="images/img14.jpg" alt="post-img">
             <h2 class="category">Tech</h2>
@@ -104,66 +108,69 @@ Avant cela, Narcisse a fait ses études primaires à l’EP 2 Mbanga, ses étude
             </div>
         </div>
 
-         <!--Le cinquième post-->
-         <div class="post-box news">
-            <img src="images/img14.jpg" alt="post-img">
-            <h2 class="category">News</h2>
-            <a href="#" class="post-title"> How to create a best UI with Figma</a>
-            <span class="post-data">22 Feb 2025</span>
-            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusamus, veniam omnis pariatur recusandae voluptate id, totam beatae aspernatur minima numquam quia tempore praesentium similique neque ab quis ex voluptatem.</p>
-            <div class="profile">
-                <img src="images/a9.jpg" alt="profile-img">
-                <span class="profile-name">NKUANGA</span>
+            <!-- Le cinquième post -->
+            <div class="post-box news">
+                <img src="images/img14.jpg" alt="post-img">
+                <h2 class="category">News</h2>
+                <a href="#" class="post-title">How to create a best UI with Figma</a>
+                <span class="post-data">22 Feb 2025</span>
+                <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                <div class="profile">
+                    <img src="images/a9.jpg" alt="profile-img">
+                    <span class="profile-name">NKUANGA</span>
+                </div>
             </div>
-        </div>
 
-         <!--Le sixième post-->
-         <div class="post-box news">
-            <img src="images/img14.jpg" alt="post-img">
-            <h2 class="category">News</h2>
-            <a href="#" class="post-title"> How to create a best UI with Figma</a>
-            <span class="post-data">22 Feb 2025</span>
-            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusamus, veniam omnis pariatur recusandae voluptate id, totam beatae aspernatur minima numquam quia tempore praesentium similique neque ab quis ex voluptatem.</p>
-            <div class="profile">
-                <img src="images/a11.jpg" alt="profile-img">
-                <span class="profile-name">NKUANGA</span>
+            <!-- Le sixième post -->
+            <div class="post-box news">
+                <img src="images/img14.jpg" alt="post-img">
+                <h2 class="category">News</h2>
+                <a href="#" class="post-title">How to create a best UI with Figma</a>
+                <span class="post-data">22 Feb 2025</span>
+                <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                <div class="profile">
+                    <img src="images/a11.jpg" alt="profile-img">
+                    <span class="profile-name">NKUANGA</span>
+                </div>
             </div>
-        </div>
-         <!--Le septième post-->
-         <div class="post-box news">
-            <img src="images/img14.jpg" alt="post-img">
-            <h2 class="category">News</h2>
-            <a href="#" class="post-title"> How to create a best UI with Figma</a>
-            <span class="post-data">22 Feb 2025</span>
-            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusamus, veniam omnis pariatur recusandae voluptate id, totam beatae aspernatur minima numquam quia tempore praesentium similique neque ab quis ex voluptatem.</p>
-            <div class="profile">
-                <img src="images/a2.jpg" alt="profile-img">
-                <span class="profile-name">NKUANGA</span>
-            </div>
-        </div>
-         <!--Le huitième post-->
-         <div class="post-box food">
-            <img src="images/img14.jpg" alt="post-img">
-            <h2 class="category">Food</h2>
-            <a href="#" class="post-title"> How to create a best UI with Figma</a>
-            <span class="post-data">22 Feb 2025</span>
-            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusamus, veniam omnis pariatur recusandae voluptate id, totam beatae aspernatur minima numquam quia tempore praesentium similique neque ab quis ex voluptatem.</p>
-            <div class="profile">
-                <img src="images/a9.jpg" alt="profile-img">
-                <span class="profile-name">NKUANGA</span>
-            </div>
-        </div>
 
-         <!--Le neuvième post-->
-         <div class="post-box tech">
-            <img src="images/img14.jpg" alt="post-img">
-            <h2 class="category">Tech</h2>
-            <a href="#" class="post-title"> How to create a best UI with Figma</a>
-            <span class="post-data">22 Feb 2025</span>
-            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusamus, veniam omnis pariatur recusandae voluptate id, totam beatae aspernatur minima numquam quia tempore praesentium similique neque ab quis ex voluptatem.</p>
-            <div class="profile">
-                <img src="images/a11.jpg" alt="profile-img">
-                <span class="profile-name">NKUANGA</span>
+            <!-- Le septième post -->
+            <div class="post-box news">
+                <img src="images/img14.jpg" alt="post-img">
+                <h2 class="category">News</h2>
+                <a href="#" class="post-title">How to create a best UI with Figma</a>
+                <span class="post-data">22 Feb 2025</span>
+                <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                <div class="profile">
+                    <img src="images/a2.jpg" alt="profile-img">
+                    <span class="profile-name">NKUANGA</span>
+                </div>
+            </div>
+
+            <!-- Le huitième post -->
+            <div class="post-box food">
+                <img src="images/img14.jpg" alt="post-img">
+                <h2 class="category">Food</h2>
+                <a href="#" class="post-title">How to create a best UI with Figma</a>
+                <span class="post-data">22 Feb 2025</span>
+                <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                <div class="profile">
+                    <img src="images/a9.jpg" alt="profile-img">
+                    <span class="profile-name">NKUANGA</span>
+                </div>
+            </div>
+
+            <!-- Le neuvième post -->
+            <div class="post-box tech">
+                <img src="images/img14.jpg" alt="post-img">
+                <h2 class="category">Tech</h2>
+                <a href="#" class="post-title">How to create a best UI with Figma</a>
+                <span class="post-data">22 Feb 2025</span>
+                <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                <div class="profile">
+                    <img src="images/a11.jpg" alt="profile-img">
+                    <span class="profile-name">NKUANGA</span>
+                </div>
             </div>
         </div>
     </div>
@@ -206,6 +213,30 @@ Avant cela, Narcisse a fait ses études primaires à l’EP 2 Mbanga, ses étude
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="main.js"></script>
 
-    
+    <script>
+        const categoryBtn = document.getElementById('category-btn');
+        const categoryFilter = document.getElementById('category-filter');
+        const filterItems = document.querySelectorAll('.filter-item');
+        const posts = document.querySelectorAll('.post-box');
+
+        categoryBtn.addEventListener('click', function() {
+            categoryFilter.classList.toggle('hidden');
+        });
+
+        filterItems.forEach(item => {
+            item.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter');
+                posts.forEach(post => {
+                    if (filter === 'all' || post.classList.contains(filter)) {
+                        post.style.display = 'block';
+                    } else {
+                        post.style.display = 'none';
+                    }
+                });
+                categoryFilter.classList.add('hidden'); // Cacher les filtres après sélection
+            });
+        });
+    </script>
+
 </body>
 </html>

@@ -171,24 +171,49 @@ header.shadow .logo{
     border: none;
     color: #fff;
 }
-
-.cmt{
-    position: relative;
-    display: inline-block;
-    margin-top: 30px;
-    padding: 10px 30px;
-    background:#fff ;
-    border:.8px solid#111 ;
-    text-decoration: none;
-    color: #111;
-    transition: 0.5s;
+.filter-container {
+    text-align: center; 
+    margin-top: 10px; 
+    margin-bottom: 15px; 
 }
-.cmt:hover{
+
+#category-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
     background-color: var(--second-color);
-    border: none;
     color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
+#category-btn:hover {
+    background-color: var(--second-color);
+}
+.hidden {
+    display: none;
+}
+.post-box {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+.filter-item {
+    cursor: pointer;
+    margin-right: 15px;
+    padding: 5px 10px;
+    
+    color: #111;
+    border-radius: 4px;
+}
+.filter-item:hover {
+    background-color:var(--second-color);
+}
+.filter-container {
+    margin-bottom: 15px;
+}
 .post-filter{
     display: flex;
     justify-content: center;
