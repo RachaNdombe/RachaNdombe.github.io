@@ -428,7 +428,8 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 80px;
+    
 }
 .services .contenu .box{
     width: 350px;
