@@ -399,14 +399,17 @@ footer {
 }
 .info span {
     margin-right: 10px;
+    text-align: center;
     
 }
 .info li {
     margin-bottom: 10px;
     text-align: center;
+    
 }
 .info li span {
     margin-right: 10px; 
+    
 }
 .quicklins a {
     color: white;
