@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header class="slide">
+    <a href="#" class="logo"> <span>Y</span>etuvekaTech</a>
+  </header>
+  
+
+  <section class="voir" id="voir">
+    <div class="titre">
+        <h2 class="titre-texte">Nos <span>S</span>ervices</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Porro atque harum asperiores vero quibusdam ratione.
+          </p>
+      </div>
+      <div class="contenu">
+
+              
+             
+
+                <video id="myVideo" width="600" controls>
+                    <source src="assets/VD.mp4" type="video/mp4">
+                    
+                    
+                </video>
+                
+    </div>     
+    </div>
+    <div>
+        <div class="titre">
+            <a href="home.html" class="btn3">retour</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+
+    <div class="copyright">
+        <p>copyright 2025 <a href="#">yao yetu</a> YetuvekaTech. Tous droits reservés  </p>
+    </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.imbox img').forEach(img => {
+            img.addEventListener('click', () => {
+                img.classList.toggle('active'); // Ajoute ou retire la classe active
+                setTimeout(() => {
+                    img.classList.remove('active'); // Retire la classe après un court délai
+                }, 200); // Temps doit correspondre à la durée de la transition CSS
+            });
+        });
+    </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const video = document.getElementById('myVideo');
+        
+        video.addEventListener('play', function() {
+            this.style.border = '5px solid #007bff';
+        });
+
+        video.addEventListener('pause', function() {
+            this.style.border = 'none';
+        });
+    });
+</script>
+  
+        
+    </body>
+    </html>
